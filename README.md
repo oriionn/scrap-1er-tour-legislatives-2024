@@ -18,8 +18,8 @@ Il donne le résultat en CSV, il y a déjà un fichier `results.csv` qui est le 
 
 ### Possibilités
 Le résultat donne deux possibilités:
-- `Cauchemar`: Un candidat LR, UXD (Union d'Extrême Droite) ou RN peut être élu
-- `Rêve`: Un candidat NFP peut être élu.
+- `Cauchemar`: Un candidat LR, UXD (Union d'Extrême Droite) ou RN peut être élu ou l'est déjà.
+- `Rêve`: Un candidat NFP peut être élu ou l'est déjà.
 
 ## Crédits
 Merci à Motodivergente pour l'idée original et l'idée des possibilités.
