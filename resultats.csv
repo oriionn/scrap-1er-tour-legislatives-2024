@@ -119,7 +119,7 @@ Circonscription;Resultats
 "2905";30.30, ENS - 27.22, UG - 26.53, RN;Triangulaire
 "2906";37.88, UG - 30.21, RN - 27.99, ENS;Triangulaire
 "2907";31.06, UG - 30.66, ENS - 26.10, RN;Triangulaire
-"2908";30.80, RN - 27.76, ENS - 22.17, DVG - 18.12, UG;Duel
+"2908";30.80, RN - 27.76, ENS - 22.17, DVG - 18.12, UG;Quadrangulaire
 "2A01";31.20, RN - 30.70, ENS;Duel
 "2A02";35.10, RN - 26.45, REG;Duel
 "2B01";31.74, REG - 28.80, RN;Duel
@@ -355,7 +355,7 @@ Circonscription;Resultats
 "6905";32.01, ENS - 26.48, UG - 25.38, RN;Triangulaire
 "6906";46.29, UG - 19.94, DVG;Duel
 "6907";46.00, UG - 27.05, ENS - 21.28, RN;Triangulaire
-"6908";33.46, RN - 22.75, UG - 21.18, ENS - 20.66, LR;Duel
+"6908";33.46, RN - 22.75, UG - 21.18, ENS - 20.66, LR;Quadrangulaire
 "6909";35.41, UXD - 25.41, LR - 23.25, UG;Triangulaire
 "6910";32.54, ENS - 31.15, RN - 23.64, UG;Triangulaire
 "6911";36.81, UXD - 26.93, ENS - 22.87, UG;Triangulaire
@@ -368,7 +368,7 @@ Circonscription;Resultats
 "7102";37.85, RN - 33.58, LR;Duel
 "7103";42.67, RN - 25.10, ENS - 19.14, UG;Triangulaire
 "7104";44.34, UXD - 29.96, UG - 22.33, LR;Triangulaire
-"7105";35.12, RN - 23.28, UG - 20.75, ENS - 19.06, DVD;Duel
+"7105";35.12, RN - 23.28, UG - 20.75, ENS - 19.06, DVD;Quadrangulaire
 "7201";33.60, RN - 30.84, ENS - 25.01, UG;Triangulaire
 "7202";39.95, UG - 35.29, UXD - 23.09, UDI;Triangulaire
 "7203";42.54, RN - 29.17, ENS;Duel
@@ -464,7 +464,7 @@ Circonscription;Resultats
 "8501";32.17, UXD - 28.51, ENS - 23.33, UG;Triangulaire
 "8502";38.74, ENS - 36.53, RN - 23.34, UG;Triangulaire
 "8503";35.59, UXD - 34.89, ENS;Duel
-"8504";39.31, DVD - 22.88, RN - 18.46, ENS - 18.42, UG;Duel
+"8504";39.31, DVD - 22.88, RN - 18.46, ENS - 18.42, UG;Quadrangulaire
 "8505";37.87, RN - 34.84, ENS - 20.12, UG;Triangulaire
 "8601";33.14, UG - 28.93, RN - 28.85, HOR;Triangulaire
 "8602";33.21, ENS - 28.63, UG - 24.42, RN;Triangulaire
@@ -517,7 +517,7 @@ Circonscription;Resultats
 "9310";52.60, UG;Elu
 "9311";62.65, UG;Elu
 "9312";45.11, UG - 26.04, RN;Duel
-"9401";33.03, UG - 27.97, DVD - 18.57, ENS - 18.36, RN;Duel
+"9401";33.03, UG - 27.97, DVD - 18.57, ENS - 18.36, RN;Quadrangulaire
 "9402";55.00, UG;Elu
 "9403";42.17, UG - 27.31, UXD - 23.77, ENS;Triangulaire
 "9404";33.02, UG - 30.58, ENS - 26.95, RN;Triangulaire

@@ -61,7 +61,7 @@ async function main() {
 
 	let csv = `Circonscription;Resultats`;
 	for (const result of results) {
-		csv += `\n"${result.circo}";${result.winners.map(w => `${w.percent.toString().replace(',', '.')}, ${w.party}`).join(' - ')};${result.winners.length === 1 ? 'Elu':(result.winners.length === 3 ? 'Triangulaire':'Duel')}`;
+		csv += `\n"${result.circo}";${result.winners.map(w => `${w.percent.toString().replace(',', '.')}, ${w.party}`).join(' - ')};${result.winners.length === 1 ? 'Elu':(result.winners.length === 3 ? 'Triangulaire':(result.winners.length === 4 ? 'Quadrangulaire':'Duel'))}`;
 	}
 	fs.writeFileSync('resultats.csv', csv, {
 		encoding: 'utf-8'
