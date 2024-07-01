@@ -1,0 +1,23 @@
+{
+  "name": "scrap-1er-tour-legislatives-2024",
+  "version": "1.0.0",
+  "description": "Récupérer les élus et les candidats qualifiés pour le second tour des législatives 2024 en France via le site du ministère de l'intérieur",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+github.com/oriionn/scrap-1er-tour-legislatives-2024.git"
+  },
+  "bugs": {
+    "url": "https://github.com/oriionn/scrap-1er-tour-legislatives-2024/issues"
+  },
+  "homepage": "https://github.com/oriionn/scrap-1er-tour-legislatives-2024#readme",
+  "keywords": ["legislatives", "2024", "scrapping", "ministère de l'intérieur", "élections", "candidats", "élus", "second tour"],
+  "author": "Orion",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12"
+  }
+}
