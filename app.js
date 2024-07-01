@@ -59,12 +59,17 @@ async function main() {
 		if (winners.length > 0) results.push({ circo, winners });
 	}
 
-	let csv = `Circonscription;Resultats`;
+	let csv = `Circonscription;Resultats;Suite pour le 2nd tour;Rêve;Cauchemar`;
 	for (const result of results) {
-		csv += `\n"${result.circo}";${result.winners.map(w => `${w.percent.toString().replace(',', '.')}, ${w.party}`).join(' - ')};${result.winners.length === 1 ? 'Elu':(result.winners.length === 3 ? 'Triangulaire':(result.winners.length === 4 ? 'Quadrangulaire':'Duel'))}`;
+		let c = result.circo;
+		let r = result.winners.map(w => `${w.percent.toString().replace(',', '.')},${w.party}`).join(' - ');
+		let s = result.winners.length === 1 ? 'Elu':(result.winners.length === 3 ? 'Triangulaire':(result.winners.length === 4 ? 'Quadrangulaire':'Duel'));
+		let re = result.winners.find(w => w.party === 'UG') === undefined ? 'Non':'Oui';
+		let ca = result.winners.find(w => w.party === 'RN' || w.party === "UXD" || w.party === "LR") === undefined ? 'Non':'Oui';
+		csv += `\n"${c}";${r};${s};${re};${ca}`;
 	}
 	fs.writeFileSync('resultats.csv', csv, {
-		encoding: 'utf-8'
+		encoding: 'utf-16le'
 	});
 
 	console.log('Fichier CSV généré avec succès !')
